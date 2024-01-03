@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "EightyNine\\Approvals\\": "src/",
-            "EightyNine\\Approvals\\Database\\Factories\\": "database/factories/"
+            "dth001\\Approvals\\": "src/",
+            "dth001\\Approvals\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EightyNine\\Approvals\\Tests\\": "tests/"
+            "dth001\\Approvals\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -59,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "EightyNine\\Approvals\\ApprovalServiceProvider"
+                "dth001\\Approvals\\ApprovalServiceProvider"
             ],
             "aliases": {
-                "Approval": "EightyNine\\Approvals\\Facades\\Approval"
+                "Approval": "dth001\\Approvals\\Facades\\Approval"
             }
         }
     },
