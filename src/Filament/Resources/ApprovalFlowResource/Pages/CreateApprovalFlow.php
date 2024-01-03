@@ -1,8 +1,8 @@
 <?php
 
-namespace EightyNine\Approvals\Filament\Resources\ApprovalFlowResource\Pages;
+namespace dth001\Approvals\Filament\Resources\ApprovalFlowResource\Pages;
 
-use EightyNine\Approvals\Filament\Resources\ApprovalFlowResource;
+use dth001\Approvals\Filament\Resources\ApprovalFlowResource;
 use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
 use Illuminate\Database\Eloquent\Model;

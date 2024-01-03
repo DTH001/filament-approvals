@@ -1,6 +1,6 @@
 <?php
 
-namespace EightyNine\Approvals\Tests;
+namespace dth001\Approvals\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
@@ -18,7 +18,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use EightyNine\Approval\ApprovalServiceProvider;
+use dth001\Approval\ApprovalServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -27,7 +27,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'EightyNine\\Approval\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'dth001\\Approval\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
     }
 

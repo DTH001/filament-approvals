@@ -1,6 +1,6 @@
 <?php
 
-namespace EightyNine\Approvals\Tables\Columns;
+namespace dth001\Approvals\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace EightyNine\Approvals\Traits;
+namespace dth001\Approvals\Traits;
 
 use App\Models\User;
 use RingleSoft\LaravelProcessApproval\Models\ProcessApproval;

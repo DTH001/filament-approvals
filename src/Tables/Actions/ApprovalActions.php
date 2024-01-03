@@ -1,6 +1,6 @@
 <?php
 
-namespace EightyNine\Approvals\Tables\Actions;
+namespace dth001\Approvals\Tables\Actions;
 
 use Filament\Support\Enums\ActionSize;
 use Filament\Tables\Actions\Action;

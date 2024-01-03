@@ -1,8 +1,8 @@
 <?php
 
-namespace EightyNine\Approvals;
+namespace dth001\Approvals;
 
-use EightyNine\Approvals\Filament\Resources\ApprovalFlowResource;
+use dth001\Approvals\Filament\Resources\ApprovalFlowResource;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 

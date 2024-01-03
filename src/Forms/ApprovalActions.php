@@ -1,6 +1,6 @@
 <?php
 
-namespace EightyNine\Approvals\Forms;
+namespace dth001\Approvals\Forms;
 
 class ApprovalActions
 {

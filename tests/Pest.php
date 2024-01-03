@@ -1,5 +1,5 @@
 <?php
 
-use EightyNine\Approval\Tests\TestCase;
+use dth001\Approval\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

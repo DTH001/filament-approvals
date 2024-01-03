@@ -1,6 +1,6 @@
 <?php
 
-namespace EightyNine\Approvals\Facades;
+namespace dth001\Approvals\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -11,6 +11,6 @@ class Approval extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \EightyNine\Approval\Approval::class;
+        return \dth001\Approval\Approval::class;
     }
 }

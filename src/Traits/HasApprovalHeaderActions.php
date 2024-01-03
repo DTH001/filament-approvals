@@ -1,13 +1,13 @@
 <?php
 
-namespace EightyNine\Approvals\Traits;
+namespace dth001\Approvals\Traits;
 
 
-use EightyNine\Approvals\Forms\Actions\ApproveAction;
-use EightyNine\Approvals\Forms\Actions\DiscardAction;
-use EightyNine\Approvals\Forms\Actions\RejectAction;
-use EightyNine\Approvals\Forms\Actions\SubmitAction;
-use EightyNine\Approvals\Models\ApprovableModel;
+use dth001\Approvals\Forms\Actions\ApproveAction;
+use dth001\Approvals\Forms\Actions\DiscardAction;
+use dth001\Approvals\Forms\Actions\RejectAction;
+use dth001\Approvals\Forms\Actions\SubmitAction;
+use dth001\Approvals\Models\ApprovableModel;
 use Exception;
 use Filament\Actions\Action;
 

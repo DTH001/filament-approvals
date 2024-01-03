@@ -1,6 +1,6 @@
 <?php
 
-namespace EightyNine\Approvals;
+namespace dth001\Approvals;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
@@ -13,8 +13,8 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use EightyNine\Approvals\Commands\ApprovalCommand;
-use EightyNine\Approvals\Testing\TestsApproval;
+use dth001\Approvals\Commands\ApprovalCommand;
+use dth001\Approvals\Testing\TestsApproval;
 
 class ApprovalServiceProvider extends PackageServiceProvider
 {

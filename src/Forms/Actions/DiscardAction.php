@@ -1,9 +1,9 @@
 <?php
 
-namespace EightyNine\Approvals\Forms\Actions;
+namespace dth001\Approvals\Forms\Actions;
 
 use Closure;
-use EightyNine\Approvals\Models\ApprovableModel;
+use dth001\Approvals\Models\ApprovableModel;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Model;

@@ -1,6 +1,6 @@
 <?php
 
-namespace EightyNine\Approvals\Tables\Actions;
+namespace dth001\Approvals\Tables\Actions;
 
 use Closure;
 use Filament\Notifications\Notification;
