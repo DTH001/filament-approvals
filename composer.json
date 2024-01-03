@@ -1,8 +1,7 @@
 {
-    "name": "eightynine/filament-approvals",
+    "name": "dth001/filament-approvals",
     "description": "Manage approval processes in your filament application",
     "keywords": [
-        "eightynine",
         "laravel",
         "filament-approvals"
     ],
