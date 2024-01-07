@@ -1,11 +1,15 @@
 <div>
     <p class="px-3">
         <small>
-            {{ $getRecord()->approvalStatus->status }} by
-            @if ($getRecord()->lastApproval)
-                {{ $getRecord()->lastApproval->approver_name }}
+            @if ($getRecord()->approvalStatus)
+                {{ $getRecord()->approvalStatus->status }} by
+                @if ($getRecord()->lastApproval)
+                    {{ $getRecord()->lastApproval->approver_name }}
+                @else
+                    {{ optional($getRecord()->createdBy())->name ?? 'N/A' }}
+                @endif
             @else
-                {{ $getRecord()->createdBy()->name }}
+                Status not available
             @endif
         </small>
     </p>
@@ -14,5 +18,4 @@
             {{ $getRecord()->isApprovalCompleted() ? 'Completed' : 'In process' }}
         </small>
     </p>
-
 </div>
