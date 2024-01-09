@@ -24,7 +24,8 @@
         "illuminate/contracts": "^10.0",
         "ringlesoft/laravel-process-approval": "^1.0",
         "spatie/laravel-package-tools": "^1.15.0",
-        "spatie/laravel-permission": "^6.1"
+        "spatie/laravel-permission": "^6.1",
+        "bezhansalleh/filament-shield": "^3.1.2"
     },
     "require-dev": {
         "nunomaduro/collision": "^7.9",
