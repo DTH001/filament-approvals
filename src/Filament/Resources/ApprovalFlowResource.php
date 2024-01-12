@@ -22,15 +22,18 @@ class ApprovalFlowResource extends Resource
 {
     protected static ?string $model = ProcessApprovalFlow::class;
 
-    protected static ?string $modelLabel = 'Approval';
+    protected static ?string $modelLabel = 'Multi Step Approval';
 
-    protected static ?string $pluralModelLabel = 'Approvals';
+    protected static ?string $pluralModelLabel = 'Multi Step Approvals';
     
     protected static ?int $navigationSort = 4;
 
     protected static ?string $navigationIcon = 'heroicon-o-clipboard-document-check';
     
-    //protected static ?string $navigationGroup = "Configuration";
+    public static function getNavigationGroup(): ?string
+    {
+        return 'Approvals';
+    }
 
     public static function form(Form $form): Form
     {
